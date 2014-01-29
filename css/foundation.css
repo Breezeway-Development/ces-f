@@ -2271,9 +2271,6 @@ button[disabled].alert:focus,
 }
 /* Panels */
 
-.panel .no-padding {
-    padding: 0px;
-}
 .panel {
     border-style: solid;
     border-width: 1px;
@@ -2358,6 +2355,93 @@ button[disabled].alert:focus,
     color: #2ba6cb;
 }
 .panel.radius {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.no-padding-panel {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d8d8d8;
+    margin-bottom: 1.25rem;
+    padding: 0;
+    background: #f2f2f2;
+}
+.no-padding-panel >:first-child {
+    margin-top: 0;
+}
+.no-padding-panel >:last-child {
+    margin-bottom: 0;
+}
+.no-padding-panel h1,
+.no-padding-panel h2,
+.no-padding-panel h3,
+.no-padding-panel h4,
+.no-padding-panel h5,
+.no-padding-panel h6,
+.no-padding-panel p {
+    color: #333333;
+}
+.no-padding-panel h1,
+.no-padding-panel h2,
+.no-padding-panel h3,
+.no-padding-panel h4,
+.no-padding-panel h5,
+.no-padding-panel h6 {
+    line-height: 1;
+    margin-bottom: 0.625rem;
+}
+.no-padding-panel h1.subheader,
+.no-padding-panel h2.subheader,
+.no-padding-panel h3.subheader,
+.no-padding-panel h4.subheader,
+.no-padding-panel h5.subheader,
+.no-padding-panel h6.subheader {
+    line-height: 1.4;
+}
+.no-padding-panel.callout {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c5e8f3;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    background: #f2fafc;
+}
+.no-padding-panel.callout >:first-child {
+    margin-top: 0;
+}
+.no-padding-panel.callout >:last-child {
+    margin-bottom: 0;
+}
+.no-padding-panel.callout h1,
+.no-padding-panel.callout h2,
+.no-padding-panel.callout h3,
+.no-padding-panel.callout h4,
+.no-padding-panel.callout h5,
+.no-padding-panel.callout h6,
+.no-padding-panel.callout p {
+    color: #333333;
+}
+.no-padding-panel.callout h1,
+.no-padding-panel.callout h2,
+.no-padding-panel.callout h3,
+.no-padding-panel.callout h4,
+.no-padding-panel.callout h5,
+.no-padding-panel.callout h6 {
+    line-height: 1;
+    margin-bottom: 0.625rem;
+}
+.no-padding-panel.callout h1.subheader,
+.no-padding-panel.callout h2.subheader,
+.no-padding-panel.callout h3.subheader,
+.no-padding-panel.callout h4.subheader,
+.no-padding-panel.callout h5.subheader,
+.no-padding-panel.callout h6.subheader {
+    line-height: 1.4;
+}
+.no-padding-panel.callout a {
+    color: #2ba6cb;
+}
+.no-padding-panel.radius {
     -webkit-border-radius: 3px;
     border-radius: 3px;
 }

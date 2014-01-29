@@ -16,6 +16,22 @@
 .half-width {
     width: 49%;
 }
-.panel .no-padding {
-    padding: 0px;
+/* topbar */
+
+.logo {
+    background-image: url(./img/logo-nav.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: absolute;
+    z-index: 100;
+    height: 138px;
+    width: 97px;
+    float: left;
+}
+.topbar-placeholder {
+    width: 94px;
+    height: 100%;
+}
+.accordion .textarea {
+    line-height: 1.25;
 }
