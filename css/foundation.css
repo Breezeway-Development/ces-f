@@ -18,6 +18,9 @@ meta.foundation-mq-xxlarge {
     font-family: "/only screen and (min-width:120.063em)/";
     width: 120.063em;
 }
+* {
+    margin: 0;
+}
 *,
 *:before,
 *:after {
@@ -28,6 +31,7 @@ meta.foundation-mq-xxlarge {
 html,
 body {
     font-size: 100%;
+    height: 100%
 }
 body {
     background: white;
@@ -123,6 +127,16 @@ textarea {
 }
 select {
     width: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+.footer,
+.push {
+    height: 4em;
 }
 .row {
     width: 100%;
