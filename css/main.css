@@ -16,22 +16,30 @@
 .half-width {
     width: 49%;
 }
-/* topbar */
+/* nav */
 
+.home {
+    position: relative;
+    z-index: 100;
+}
 .logo {
+    position: absolute;
+    z-index: 99;
+    width: 97px;
+    height: 138px;
+    /* 97x138 */
     background-image: url(./img/logo-nav.png);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 55px auto;
-    position: absolute;
-    z-index: 100;
-    width: 97px;
-    height: 138px;
-    /* 97x138 */
 }
 .topbar-placeholder {
     width: 52px;
+    height: auto;
     /* 94px */
+}
+.current {
+    background: #921d23 !important;
 }
 .accordion .textarea {
     line-height: 1.25;
