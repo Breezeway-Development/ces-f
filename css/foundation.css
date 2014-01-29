@@ -1344,11 +1344,11 @@ meta.foundation-mq-topbar {
     background: #921d23;
     color: white;
 }
-.top-bar-section ul li.active > a {
+.top-bar-section ul li.current > a {
     background: #921d23;
     color: white;
 }
-.top-bar-section ul li.active > a:hover {
+.top-bar-section ul li.current > a:hover {
     background: #921d23;
 }
 .top-bar-section .has-form {
@@ -1571,7 +1571,7 @@ meta.foundation-mq-topbar {
         background: #921d23;
         color: white;
     }
-    .no-js .top-bar-section ul li:active > a {
+    .no-js .top-bar-section ul li:current > a {
         background: #921d23;
         color: white;
     }

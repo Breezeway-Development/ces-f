@@ -16,7 +16,7 @@
 .half-width {
     width: 49%;
 }
-/* topbar */
+/* nav */
 
 .home {
     position: relative;
@@ -37,6 +37,9 @@
     width: 52px;
     height: auto;
     /* 94px */
+}
+.current {
+    background: #921d23 !important;
 }
 .accordion .textarea {
     line-height: 1.25;
