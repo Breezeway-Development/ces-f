@@ -1,113 +1,114 @@
 <!-- @include _header -->
-<div class="row">
-    <div class="small-12 large-3 columns topmargin">
-        <!-- @include template-sidebar.html -->
-    </div>
-    <div class="small-12 large-7 columns topmargin">
-        <section>
-            <div class="panel radius textarea">
-                <p>If you would like an admission packet mailed to you, please complete the following form and press the submit button, or you may call the Admissions Office at
-                    <a href="tel://1-985-871-9902">985-871-9902</a>&nbsp;or email
-                    <a href="mailto:pam@christepiscopalschool.org">pam@christepiscopalschool.org</a>.</p>
-                <form>
-                    <div class="row">
-                        <div class="small-6 columns">
-                            <label>*Student's First Name</label>
-                            <input type="text" placeholder="First Name" />
+<div class="admissions">
+    <!-- @include _navbar -->
+    <div class="row">
+        <div class="small-12 large-3 columns topmargin">
+            <!-- @include template-sidebar.html -->
+        </div>
+        <div class="small-12 large-7 columns topmargin">
+            <section>
+                <div class="panel radius textarea">
+                    <p>If you would like an admission packet mailed to you, please complete the following form and press the submit button, or you may call the Admissions Office at
+                        <a href="tel://1-985-871-9902">985-871-9902</a>&nbsp;or email
+                        <a href="mailto:pam@christepiscopalschool.org">pam@christepiscopalschool.org</a>.</p>
+                    <form>
+                        <div class="row">
+                            <div class="small-6 columns">
+                                <label>*Student's First Name</label>
+                                <input type="text" placeholder="First Name" />
+                            </div>
+                            <div class="small-6 columns">
+                                <label>*Student's Last Name</label>
+                                <input type="text" placeholder="Last Name" />
+                            </div>
+                            <div class="small-6 columns">
+                                <label>*Parent's First Name</label>
+                                <input type="text" placeholder="First Name" />
+                            </div>
+                            <div class="small-6 columns">
+                                <label>*Parent's Last Name</label>
+                                <input type="text" placeholder="Last Name" />
+                            </div>
+                            <div class="small-8 columns">
+                                <label>*Address</label>
+                                <input type="text" placeholder="Street Address" />
+                            </div>
+                            <div class="small-4 columns">
+                                <label>*City</label>
+                                <input type="text" placeholder="City" />
+                            </div>
+                            <div class="small-8 columns">
+                                <label>*State</label>
+                                <select>
+                                    <option value="louisiana">Louisiana</option>
+                                </select>
+                            </div>
+                            <div class="small-4 columns">
+                                <label>*Zip</label>
+                                <input type="text" placeholder="Zip Code" />
+                            </div>
+                            <div class="small-12 columns">
+                                <label>*Email</label>
+                                <input type="text" placeholder="Email Address" />
+                            </div>
+                            <div class="small-12 columns">
+                                <label>*Home Phone</label>
+                                <input type="text" placeholder="(555) 555-555" maxlength="14" />
+                            </div>
+                            <div class="small-6 columns">
+                                <label>*Academic Year</label>
+                                <select>
+                                    <option value="11-12">2011-2012</option>
+                                </select>
+                            </div>
+                            <div class="small-6 columns">
+                                <label>*Grade Applying For</label>
+                                <select>
+                                    <option value="prek">Pre-K</option>
+                                </select>
+                            </div>
+                            <div class="small-12 columns">
+                                <label>*Birthdate</label>
+                                <input type="text" placeholder="MM/DD/YYYY" />
+                            </div>
+                            <div class="small-6 columns">
+                                <label>Sibling at CES</label>
+                                <input type="text" placeholder="Name" />
+                            </div>
+                            <div class="small-6 columns">
+                                <label>Referred by</label>
+                                <input type="text" placeholder="Name" />
+                            </div>
+                            <div class="small-12 columns">
+                                <label>Comments</label>
+                                <textarea></textarea>
+                            </div>
                         </div>
-                        <div class="small-6 columns">
-                            <label>*Student's Last Name</label>
-                            <input type="text" placeholder="Last Name" />
+                    </form>
+                    <a href="#" class="full-width radius button">Submit</a>
+                </div>
+            </section>
+        </div>
+
+        <div class="small-12 large-2 columns topmargin">
+            <div class="no-padding-panel radius">
+                <dl class="accordion">
+                    <dd>
+                        <a class="text-center">
+                            <h5>Etiam</h5>
+                        </a>
+                        <div id="panel1" class="content active">
+                            <!-- @placeholder 140x206 -->
                         </div>
-                        <div class="small-6 columns">
-                            <label>*Parent's First Name</label>
-                            <input type="text" placeholder="First Name" />
-                        </div>
-                        <div class="small-6 columns">
-                            <label>*Parent's Last Name</label>
-                            <input type="text" placeholder="Last Name" />
-                        </div>
-                        <div class="small-8 columns">
-                            <label>*Address</label>
-                            <input type="text" placeholder="Street Address" />
-                        </div>
-                        <div class="small-4 columns">
-                            <label>*City</label>
-                            <input type="text" placeholder="City" />
-                        </div>
-                        <div class="small-8 columns">
-                            <label>*State</label>
-                            <select>
-                                <option value="louisiana">Louisiana</option>
-                            </select>
-                        </div>
-                        <div class="small-4 columns">
-                            <label>*Zip</label>
-                            <input type="text" placeholder="Zip Code" />
-                        </div>
-                        <div class="small-12 columns">
-                            <label>*Email</label>
-                            <input type="text" placeholder="Email Address" />
-                        </div>
-                        <div class="small-12 columns">
-                            <label>*Home Phone</label>
-                            <input type="text" placeholder="(555) 555-555" maxlength="14" />
-                        </div>
-                        <div class="small-6 columns">
-                            <label>*Academic Year</label>
-                            <select>
-                                <option value="11-12">2011-2012</option>
-                            </select>
-                        </div>
-                        <div class="small-6 columns">
-                            <label>*Grade Applying For</label>
-                            <select>
-                                <option value="prek">Pre-K</option>
-                            </select>
-                        </div>
-                        <div class="small-12 columns">
-                            <label>*Birthdate</label>
-                            <input type="text" placeholder="MM/DD/YYYY" />
-                        </div>
-                        <div class="small-6 columns">
-                            <label>Sibling at CES</label>
-                            <input type="text" placeholder="Name" />
-                        </div>
-                        <div class="small-6 columns">
-                            <label>Referred by</label>
-                            <input type="text" placeholder="Name" />
-                        </div>
-                        <div class="small-12 columns">
-                            <label>Comments</label>
-                            <textarea></textarea>
-                        </div>
-                    </div>
-                </form>
-                <a href="#" class="full-width radius button">Submit</a>
+                        <a class="textarea">
+                            <font size="">Nunc facilisis ligula sit amet nisl egestas, ut viverra eros vehicula. Etiam placerat lacinia tempus. Aenean nisl turpis, egestas vel.</font>
+                        </a>
+                    </dd>
+
+                </dl>
             </div>
-        </section>
-    </div>
-
-    <div class="small-12 large-2 columns topmargin">
-        <div class="no-padding-panel radius">
-            <dl class="accordion">
-                <dd>
-                    <a class="text-center">
-                        <h5>Etiam</h5>
-                    </a>
-                    <div id="panel1" class="content active">
-                        <!-- @placeholder 140x206 -->
-                    </div>
-                    <a class="textarea">
-                        <font size="">Nunc facilisis ligula sit amet nisl egestas, ut viverra eros vehicula. Etiam placerat lacinia tempus. Aenean nisl turpis, egestas vel.</font>
-                    </a>
-                </dd>
-
-            </dl>
         </div>
     </div>
-</div>
-<div class="push"></div>
 </div>
 
 <!-- @include _footer -->

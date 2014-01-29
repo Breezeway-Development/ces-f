@@ -18,16 +18,37 @@
 }
 /* nav */
 
-.home {
-    position: relative;
-    z-index: 100;
+.dropdown > .divider,
+.dropdown[role="separator"] {
+    border-top: solid 1px #B0232A;
+    clear: both;
+    height: 1px;
+    width: 100%;
+}
+div.about a.about,
+div.admissions a.admissions,
+div.academics a.academics,
+div.athletics a.athletics,
+div.arts a.arts,
+div.campus a.campus,
+div.cespa a.cespa,
+div.giving a.giving {
+    background: #921d23 !important;
+}
+a.current > .logo {
+    width: 97px;
+    height: 138px;
+    background-size: 97px auto;
+}
+a.current > .topbar-placeholder {
+    width: 94px;
+    height: auto;
 }
 .logo {
     position: absolute;
     z-index: 99;
-    width: 97px;
-    height: 138px;
-    /* 97x138 */
+    width: 55px;
+    height: 79px;
     background-image: url(./img/logo-nav.png);
     background-repeat: no-repeat;
     background-position: left top;
