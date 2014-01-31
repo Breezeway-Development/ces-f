@@ -1297,6 +1297,9 @@ meta.foundation-mq-topbar {
     left: 0;
     position: relative;
     width: auto;
+    -webkit-transition: left 300ms ease-out;
+    -moz-transition: left 300ms ease-out;
+    transition: left 300ms ease-out;
 }
 .top-bar-section ul {
     width: 100%;
