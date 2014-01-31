@@ -1297,9 +1297,6 @@ meta.foundation-mq-topbar {
     left: 0;
     position: relative;
     width: auto;
-    -webkit-transition: left 300ms ease-out;
-    -moz-transition: left 300ms ease-out;
-    transition: left 300ms ease-out;
 }
 .top-bar-section ul {
     width: 100%;
@@ -1358,7 +1355,7 @@ meta.foundation-mq-topbar {
     background: #921d23;
     color: white;
 }
-.top-bar-section ul li.current > a {
+.top-bar-section ul li.current > a.current {
     background: #921d23;
     color: white;
 }
@@ -3079,7 +3076,6 @@ ul.pagination li {
 }
 .sidebar {
     background: #fafafa;
-    padding: ;
 }
 .sidebar.fixed,
 [data-magellan-expedition] {
