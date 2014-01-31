@@ -61,9 +61,11 @@ a.current > .topbar-placeholder {
     height: auto;
     /* 94px */
 }
+/*
 .current {
     background: #921d23 !important;
 }
+*/
 .accordion .textarea {
     line-height: 1.25;
 }
