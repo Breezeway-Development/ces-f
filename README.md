@@ -1,4 +1,4 @@
 CES
 =====================
 
-CHRISTEPISCOPALSCHOOL website with foundation
+Christepiscopalschool website w/ foundation
