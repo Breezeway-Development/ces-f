@@ -2,7 +2,7 @@
 
 /* Blue #003C79 */
 
-/* Yellow #d6ac5c */
+/* Yellow #D6AC5C */
 
 h3.blue-title {} .orbiter {
     max-width: 700px;
@@ -52,7 +52,7 @@ a.current > .topbar-placeholder {
     z-index: 99;
     width: 55px;
     height: 79px;
-    background-image: url(./img/logo-nav.png);
+    background-image: url(/img/logo-nav.png);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 55px auto;
@@ -62,10 +62,23 @@ a.current > .topbar-placeholder {
     height: auto;
     /* 94px */
 }
-/*.current {
-    background: #921d23 !important;
-}*/
-
+.panel h1,
+.panel h2,
+.panel h3 {
+    color: #003C79;
+}
+.panel h4,
+.panel h5,
+.panel h6 {
+    color: #D6AC5C;
+    /* @todo just no. */
+    /* @todo all headers? (sidenav and forms) */
+}
+.sidebar h4,
+.sidebar h5,
+.sidebar h6 {
+    color: #003C79;
+}
 .accordion .textarea {
     line-height: 1.25;
 }
