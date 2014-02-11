@@ -62,22 +62,17 @@ a.current > .topbar-placeholder {
     height: auto;
     /* 94px */
 }
-.panel h1,
-.panel h2,
-.panel h3 {
+.textarea h1,
+.textarea h2,
+.textarea h3,
+.sidebar h4 {
     color: #003C79;
 }
-.panel h4,
-.panel h5,
-.panel h6 {
+.textarea h4,
+.textarea h5,
+.textarea h6 {
     color: #D6AC5C;
-    /* @todo just no. */
-    /* @todo all headers? (sidenav and forms) */
-}
-.sidebar h4,
-.sidebar h5,
-.sidebar h6 {
-    color: #003C79;
+    /* @todo different style for forms? */
 }
 .accordion .textarea {
     line-height: 1.25;
