@@ -128,7 +128,7 @@ textarea {
 select {
     width: 100%;
 }
-.wrapper {
+/* .wrapper {
     min-height: 100%;
     height: auto !important;
     height: 100%;
@@ -137,7 +137,7 @@ select {
 .footer,
 .push {
     height: 4em;
-}
+} */
 .row {
     width: 100%;
     margin-left: auto;

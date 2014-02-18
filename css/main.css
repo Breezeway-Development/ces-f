@@ -4,6 +4,29 @@
 
 /* Yellow #D6AC5C */
 
+html {
+    font: 1em/1.5"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+    /* this is why sass would be nice */
+    /* magic number 1.5 */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+ul,
+ol,
+dd,
+p,
+figure,
+pre,
+table,
+fieldset,
+hr {
+    margin-bottom: 1.5rem;
+}
 h3.blue-title {} .orbiter {
     max-width: 700px;
     margin-left: auto;
@@ -104,38 +127,6 @@ a.current > .topbar-placeholder {
     padding-bottom: 5px;
     margin-bottom: 25px;
 }
-.zurb-footer-bottom a.zurb-logo {
-    color: #858585;
-    font-weight: normal;
-    background: url(../img/icons/footer-icons.png) no-repeat 0 3px;
-    padding: 25px 0 0 0;
-    font-size: 0.88889rem;
-    display: inline-block;
-    width: 90px;
-}
-.zurb-footer-bottom a.zurb-logo:hover {
-    opacity: 0.8;
-}
-.zurb-footer-bottom ul.zurb-links {
-    margin: 0;
-    display: inline-block;
-}
-.zurb-footer-bottom ul.zurb-links li {
-    display: block;
-    float: left;
-    margin-left: 6px;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 0.77778rem;
-    color: #a2a1a1;
-}
-.zurb-footer-bottom ul.zurb-links li a {
-    color: #666666;
-    padding: 3px 6px;
-}
-.zurb-footer-bottom ul.zurb-links li a:hover {
-    color: #777777;
-}
 .zurb-footer-bottom p.copyright {
     margin: 6px 0 0;
     font-size: 0.66667rem;
@@ -172,33 +163,6 @@ a.current > .topbar-placeholder {
 }
 .zurb-footer-bottom ul.home-social li a.mail {
     background-position: center -400px;
-}
-@media only screen and (max-width: 767px) {
-    .zurb-footer-bottom {
-        text-align: center;
-    }
-    .zurb-footer-bottom .columns {
-        padding: 0;
-    }
-    .zurb-footer-bottom a.zurb-logo {
-        display: block;
-        margin: 0 auto;
-    }
-    .zurb-footer-bottom ul.zurb-links {
-        margin: 16px 0 10px;
-    }
-    .zurb-footer-bottom ul.home-social {
-        float: none;
-        margin: 0 0 20px 0;
-        text-align: center;
-        height: 44px;
-        display: inline-block;
-    }
-}
-@media only screen and (max-width: 320px) {
-    .zurb-footer-bottom ul.zurb-links li a {
-        font-size: 12px;
-    }
 }
 .img-content {
     display: block;
