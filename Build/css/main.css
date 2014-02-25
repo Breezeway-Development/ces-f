@@ -1,0 +1,178 @@
+/* Red #B0232A */
+
+/* Blue #003C79 */
+
+/* Yellow #D6AC5C */
+
+html {
+    font: 1em/1.5"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+    /* this is why sass would be nice */
+    /* magic number 1.5 */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+ul,
+ol,
+dd,
+p,
+figure,
+pre,
+table,
+fieldset,
+hr {
+    margin-bottom: 1.5rem;
+}
+h3.blue-title {} .orbiter {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topmargin {
+    margin-top: 0.9375rem;
+}
+.full-width {
+    width: 100%;
+}
+.half-width {
+    width: 49%;
+}
+/* nav */
+
+/* .dropdown > .divider,
+.dropdown[role="separator"] {
+    border-top: solid 1px #B0232A;
+    clear: both;
+    height: 1px;
+    width: 100%;
+} */
+
+div.about a.about,
+div.admissions a.admissions,
+div.academics a.academics,
+div.athletics a.athletics,
+div.arts a.arts,
+div.campus a.campus,
+div.cespa a.cespa,
+div.giving a.giving,
+div.episcopal a.episcopal {
+    background: #921d23 !important;
+}
+a.current > .logo {
+    width: 97px;
+    height: 138px;
+    background-size: 97px auto;
+}
+a.current > .topbar-placeholder {
+    width: 94px;
+    height: auto;
+}
+.logo {
+    position: absolute;
+    z-index: 99;
+    width: 55px;
+    height: 79px;
+    background-image: url(../img/logo-nav.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 55px auto;
+}
+.topbar-placeholder {
+    width: 52px;
+    height: auto;
+    /* 94px */
+}
+.textarea h1,
+.textarea h2,
+.textarea h3,
+.sidebar h4 {
+    color: #003C79;
+}
+.textarea h4,
+.textarea h5,
+.textarea h6 {
+    color: #D6AC5C;
+    /* @todo different style for forms? */
+}
+.accordion .textarea {
+    line-height: 1.25;
+}
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.zurb-footer-bottom {
+    background: #333333;
+    padding: 24px 0 10px;
+}
+.zurb-footer-bottom .design-border {
+    border-bottom: 1px solid #484848;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+.zurb-footer-bottom p.copyright {
+    margin: 6px 0 0;
+    font-size: 0.66667rem;
+    color: #666666;
+}
+.zurb-footer-bottom ul.home-social {
+    display: block;
+    float: right;
+    margin-bottom: 8px;
+}
+.zurb-footer-bottom ul.home-social li {
+    list-style: none;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.zurb-footer-bottom ul.home-social li:first-child {
+    margin-left: 0;
+}
+.zurb-footer-bottom ul.home-social li a {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: url(../img/social.png) no-repeat center 0;
+}
+.zurb-footer-bottom ul.home-social li a:hover {
+    opacity: 0.8;
+}
+.zurb-footer-bottom ul.home-social li a.twitter {
+    background-position: center 0;
+}
+.zurb-footer-bottom ul.home-social li a.facebook {
+    background-position: center -200px;
+}
+.zurb-footer-bottom ul.home-social li a.mail {
+    background-position: center -400px;
+}
+.img-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+/*#map-canvas {
+    height:100%
+}
+*/
