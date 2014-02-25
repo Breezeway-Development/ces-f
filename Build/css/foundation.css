@@ -138,6 +138,7 @@ select {
 .push {
     height: 4em;
 } */
+
 .row {
     width: 100%;
     margin-left: auto;
@@ -3238,6 +3239,9 @@ ul.pagination li {
     display: block;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 1rem;
+}
+.accordion dd > h4 {
+    margin-top: 0.5rem;
 }
 .accordion dd > a:hover {
     background: #e3e3e3;

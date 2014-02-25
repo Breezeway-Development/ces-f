@@ -89,7 +89,8 @@ a.current > .topbar-placeholder {
 .textarea h1,
 .textarea h2,
 .textarea h3,
-.sidebar h4 {
+.sidebar h4,
+#right-bar h4 {
     color: #003C79;
 }
 .textarea h4,
