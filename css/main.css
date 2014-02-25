@@ -58,7 +58,8 @@ div.athletics a.athletics,
 div.arts a.arts,
 div.campus a.campus,
 div.cespa a.cespa,
-div.giving a.giving {
+div.giving a.giving,
+div.episcopal a.episcopal {
     background: #921d23 !important;
 }
 a.current > .logo {
