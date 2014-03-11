@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christ Episcopal School</title>
     <link rel="icon" type="image/png" href="../img/logo-nav-copy.png">
-    <link rel='stylesheet' href='../7cd2d9848ab91de0a282086682b9e3f2.css'>
-    <script src='../3efc42bcfb158658a4924a78956f95ec.js'></script>
+    <link rel='stylesheet' href='../css/normalize.css'>
+<link rel='stylesheet' href='../css/foundation.css'>
+<link rel='stylesheet' href='../css/main.css'>
+    <script src='../js/vendor/modernizr.js'></script>
 </head>
 
 <body>
@@ -506,11 +508,35 @@
         </div>
     </div>
 </footer>
-<script src='../3d0ef00fb94a3cae78a080252e062d6b.js'></script>
+<script src='../js/vendor/jquery.js'></script>
+<script src='../js/vendor/fastclick.js'></script>
+<script src='../js/foundation.min.js'></script>
 <script>
     $(document).foundation();
 </script>
 
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
 
 </body>
 

@@ -11,16 +11,40 @@
     <title>Christ Episcopal School</title>
 
     <!-- CSS -->
-    <link rel='stylesheet' href='../34ca644b6f980d45dd47b0083487befa.css'>
-    <link rel='stylesheet' href='../12771e31d41f3d13fc1105d7c77bc8b9.css'>
+    <link rel='stylesheet' href='../css/normalize.css'>
+<link rel='stylesheet' href='../css/foundation.css'>
+<link rel='stylesheet' href='../css/main.css'>
+    <link rel='stylesheet' href='../css/form.css'>
 
     <!-- foundation-icons -->
 
     <!-- JavaScript -->
-    <script src='../3efc42bcfb158658a4924a78956f95ec.js'></script>
-    <script src='../363189bd0782cfed5edd1f4de8ee1a4a.js'></script>
+    <script src='../js/vendor/modernizr.js'></script>
+    <script src='../js/wufoo.js'></script>
 
     
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
 
     <!--[if lt IE 10]>
 <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -956,11 +980,35 @@
         </div>
     </div>
 </footer>
-<script src='../3d0ef00fb94a3cae78a080252e062d6b.js'></script>
+<script src='../js/vendor/jquery.js'></script>
+<script src='../js/vendor/fastclick.js'></script>
+<script src='../js/foundation.min.js'></script>
 <script>
     $(document).foundation();
 </script>
 
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
 
 </body>
 
