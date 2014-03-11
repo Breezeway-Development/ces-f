@@ -7,11 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christ Episcopal School</title>
     <link rel="icon" type="image/png" href="../img/logo-nav-copy.png">
-    <link rel='stylesheet' href='../css/normalize.css'>
-<link rel='stylesheet' href='../css/foundation.css'>
-<link rel='stylesheet' href='../css/main.css'>
+    <link rel='stylesheet' href='../34ca644b6f980d45dd47b0083487befa.css'>
     <!-- foundation-icons -->
-    <script src='../js/vendor/modernizr.js'></script>
+    <script src='../3efc42bcfb158658a4924a78956f95ec.js'></script>
     <style type="text/css">
         html { height: 100% }
           body { height: 100%; margin: 0; padding: 0 }
@@ -383,20 +381,22 @@
                     <div class="no-padding-panel radius editable" id="right-bar">
                         <dl class="accordion">
                             <dd>
-                                <a class="text-center">
-                                    <h4 style="text-align: center;">Heading</h4>
-                                </a>
+                                <h4 style="text-align: center;">Etiam</h4>
                                 <div id="panel1" class="content active">
                                     <img src='http://placehold.it/140x206' width='140' height='206' alt='Placeholder Image' />
-                                    <a class="textarea">Melius habemus minimum ad pri, an modus volutpat sadipscing duo.</a>
+                                </div>
+                                <a class="textarea">
+                                    <font size="">Nunc facilisis ligula sit amet nisl egestas, ut viverra eros vehicula. Etiam placerat lacinia tempus. Aenean nisl turpis, egestas vel.</font>
+                                </a>
                             </dd>
+
                         </dl>
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="push"></div>
+        <div class="push"></div>
 </div>
 
 <footer id="footer">
@@ -441,35 +441,11 @@
         </div>
     </div>
 </footer>
-<script src='../js/vendor/jquery.js'></script>
-<script src='../js/vendor/fastclick.js'></script>
-<script src='../js/foundation.min.js'></script>
+<script src='../3d0ef00fb94a3cae78a080252e062d6b.js'></script>
 <script>
     $(document).foundation();
 </script>
 
-        <!-- Hammer reload -->
-          <script>
-            setInterval(function(){
-              try {
-                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
-                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
-                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
-                ws.onmessage = function(){
-                  var links = document.getElementsByTagName('link'); 
-                    for (var i = 0; i < links.length;i++) { 
-                    var link = links[i]; 
-                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
-                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
-                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
-                    }
-                  }
-                }
-              }catch(e){}
-            }, 1000)
-          </script>
-        <!-- /Hammer reload -->
-      
 
 </body>
 

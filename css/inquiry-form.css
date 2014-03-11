@@ -1273,6 +1273,7 @@ img.ui-datepicker-trigger {
 #cboxClose.hover {
     background-position: -25px -25px
 }
+/*
 .cboxIE #cboxTopLeft,
 .cboxIE #cboxTopCenter,
 .cboxIE #cboxTopRight,
@@ -1283,6 +1284,8 @@ img.ui-datepicker-trigger {
 .cboxIE #cboxMiddleRight {
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF)
 }
+*/
+
 .cboxIE6 #cboxTopLeft {
     background: url(../images/colorbox/images/ie6/borderTopLeft.png)
 }
@@ -1777,7 +1780,7 @@ img.ui-datepicker-trigger {
     background-color: #E6E6E6
 }
 .emf-banding-odd {
-    background-color: #fffff
+    background-color: #ffffff
 }
 .emf-banding-even {
     background-color: #F6F6F6
@@ -2411,6 +2414,7 @@ div.star-rating {
         padding: 4px
     }
 }
+/*
 var g_emf_resources= {
     "js_currency_\u0e3f,Baht,Satang": "\u0e3f,Baht,Satang", "js_currency_CHF,Francs,Rappen": "CHF,Francs,Rappen", "js_currency_$,Dollars,Cents": "$,Dollars,Cents", "js_currency_\u20ac,Euros,Cents": "\u20ac,Euros,Cents", "js_currency_Ft,Forint,Filler": "Ft,Forint,Filler", "js_currency_K\u010d,Koruna,Hal\u00e9\u0159\u016f": "K\u010d,Koruna,Hal\u00e9\u0159\u016f", "js_currency_Kr,Krona,Ore": "Kr,Krona,Ore", "js_currency_$,Pesos,Centavos": "$,Pesos,Centavos", "js_currency_\u20b1,Pesos,Centavos": "\u20b1,Pesos,Centavos", "js_currency_\u00a3,Pounds,Pence": "\u00a3,Pounds,Pence", "js_currency_R,Rand,Cents": "R,Rand,Cents", "js_currency_R$,Reais,Centavos": "R$,Reais,Centavos", "js_currency_RM,Ringgit,Sen": "RM,Ringgit,Sen", "js_currency_Rp,Rupiahs,Sen": "Rp,Rupiahs,Sen", "js_currency_\u20aa,Shekel,Agora": "\u20aa,Shekel,Agora", "js_currency_\u00a5,Yen": "\u00a5,Yen", "js_currency_z\u0142,Z\u0142oty,Grosz": "z\u0142,Z\u0142oty,Grosz", "js_validation_required": "This field is required", "js_validation_required_select_multiple": "Please select an option", "js_validation_required_checkbox": "This checkbox is required", "js_validation_length": "Between{min}and{max}characters allowed", "js_validation_length_word": "Between{min}and{max}words allowed", "js_validation_length_value": "Between{min}and{max}value allowed", "js_validation_max_checkbox": "Please select up
 to {
@@ -2489,6 +2493,7 @@ to {
     "js_calendar_year":"Year"
 }
 ;
+*/
  #emf-container-wrap {} #emf-container {
     background-color: #FFFFFF;
     color: #000000;
@@ -2541,10 +2546,12 @@ BODY {
 #emf-container .emf-field-grid tbody tr:hover {
     ;
 }
+/*
 #emf-container #emf-page-info .emf-page-number.emf-selected {
     ;
     border-color: ;
 }
+*/
 #emf-container-outer #emf-form-shadows {
     display: block;
     margin: 0 auto;
