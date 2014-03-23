@@ -7,10 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christ Episcopal School</title>
     <link rel="icon" type="image/png" href="img/logo-nav-copy.png">
-    <link rel='stylesheet' href='css/normalize.css'>
-<link rel='stylesheet' href='css/foundation.css'>
-<link rel='stylesheet' href='css/main.css'>
-    <script src='js/vendor/modernizr.js'></script>
+    <link rel='stylesheet' href='c9f3424790f42fd2a04b3080cac68e59.css'>
+    <script src='3efc42bcfb158658a4924a78956f95ec.js'></script>
 </head>
 
 <body>
@@ -336,7 +334,7 @@
 </div>
 
 <div class="row">
-<div class="large-3 columns topmargin">
+    <div class="large-3 columns topmargin">
     <img src="img/logo-text.PNG">
     <a href="news.html" class="full-width radius button">School News</a>
     <a href="calendar.html" class="full-width radius button">School Calendar</a>
@@ -346,21 +344,21 @@
     <a href="#" class="half-width left radius button">Parents</a>
     <a href="#" class="half-width right radius button">Alumni</a>
 </div>
-    <div class="large-9 columns topmargin">
+    <div class="large-9 columns topmargin editable-gallery">
         <div class="orbiter">
             <div class="preloader"></div>
             <ul data-orbit data-options="pause_on_hover:false; ">
                 <li>
                     <img src="img/Regional-Science.JPG">
-                    <div class="orbit-caption ">Regional Science Fair</div>
+                    <div class="orbit-caption">Regional Science Fair</div>
                 </li>
                 <li>
                     <img src="img/Post-Office.JPG">
-                    <div class="orbit-caption ">Post Office</div>
+                    <div class="orbit-caption">Post Office</div>
                 </li>
                 <li>
                     <img src="img/Varsity-Soccer.JPG">
-                    <div class="orbit-caption ">Varsity Soccer vs Holy Cros</div>
+                    <div class="orbit-caption">Varsity Soccer vs Holy Cross</div>
                 </li>
             </ul>
         </div>
@@ -414,35 +412,11 @@
         </div>
     </div>
 </footer>
-<script src='js/vendor/jquery.js'></script>
-<script src='js/vendor/fastclick.js'></script>
-<script src='js/foundation.min.js'></script>
+<script src='3d0ef00fb94a3cae78a080252e062d6b.js'></script>
 <script>
     $(document).foundation();
 </script>
 
-        <!-- Hammer reload -->
-          <script>
-            setInterval(function(){
-              try {
-                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
-                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
-                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
-                ws.onmessage = function(){
-                  var links = document.getElementsByTagName('link'); 
-                    for (var i = 0; i < links.length;i++) { 
-                    var link = links[i]; 
-                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
-                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
-                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
-                    }
-                  }
-                }
-              }catch(e){}
-            }, 1000)
-          </script>
-        <!-- /Hammer reload -->
-      
 
 </body>
 
