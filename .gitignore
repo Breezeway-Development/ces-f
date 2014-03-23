@@ -21,4 +21,4 @@ $RECYCLE.BIN/
 *.msp
 
 # Hammer Build
-Build/*
+Build/
